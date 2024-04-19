@@ -1,0 +1,24 @@
+body {
+    background-image: url(back.png);
+    background-repeat: repeat-y;
+}
+
+H1 {
+    font-size: 300%;
+    text-align: center;
+    color: #339933;
+}
+
+H2 {
+    border-left-width: 30px;
+    border-left-style: solid;
+    border-left-color: #009999;
+    border-right-width: 30px;
+    border-right-style: solid;
+    border-right-color: #990024;
+}
+
+UL{
+    line-height : 2.5em;
+    background-color : #ffcc66;
+}

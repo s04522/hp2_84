@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホームセンターたかのトップ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- trは行の切り替え、tdは列の切り替え(一列だけでも列切り替えは必要) -->
+<!-- colspanは列の数を設定する -->
+<!-- <hr>で水平線導入 -->
+<!-- 番号なしリストは<ul> <li></li> </ul> -->
+<!-- <a name = ~>で同じページに移動させる際の名前を定義できる(ラベルリンク) -->
+<!-- <table border="~">で線の有無を設定できる、0は線無し1は線有り -->
+<!-- メモ作成細川 -->
+<!--  -->
+
+<body>
+    <table border="0">
+        <tr>
+            <td colspan=4>
+            	3-I 22 細川虎楽郎
+            	<h1><a name = "top">ホームセンターたかの</a></h1>
+            	暮らしをもっと便利にしてくれるアイテムがそろっています<br>
+            	<img src="pic1.jpg" alt="工具の写真">
+            </td>
+        </tr>
+        <tr>
+            <td><a href="page1.html"><img src="icon1.png"></a></td>
+            <td><a href="page2.html"><img src="icon2.png"></a></td>
+            <td><a href="page3.html"><img src="icon3.png"></a></td>
+            <td><a href="mailto:takano@goukaku.ne.jp"><img src="icon4.png"></a></td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <h2><a name = "news">お知らせ</a></h2>
+                <h3>新着情報</h3>
+                <ul>
+                    <li>クリアランスセールが始まりました</li>
+                    <li>各店舗の工作室がリニューアルしました</li>
+                    <li>牧野店がオープンしました</li>
+                </ul>
+                <hr>
+                <h3>今月の特集</h3>
+                これから新生活をスタートする方必見！
+                <table border="1">
+                    <tr>
+                        <td>
+                            部屋を広く見せる方法
+                        </td>
+                        <td rowspan="2">
+                            <a href="page4.html"><img src="pic2.jpg" alt="特設ページ"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            新生活の豆知識
+                        </td>
+                    </tr>
+                </table>
+                <a href="#top">トップへ戻る</a>
+                <a href="#news">お知らせへ戻る</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
